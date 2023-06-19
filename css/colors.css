@@ -1,0 +1,13 @@
+.black {
+    background-color: var(--black);   
+    color: var(--white);
+}
+.white {
+    background-color: var(--white);
+    color: var(--black);
+   
+} 
+
+
+
+

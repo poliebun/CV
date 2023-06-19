@@ -1,0 +1,28 @@
+.container {
+    max-width: 1130px;
+    margin: 0 auto;
+    min-height: 600px;
+    display: flex;
+}  
+
+.col-left,
+.col-right {
+    min-height: 600px;
+}
+
+.col-left {
+     width: 62%;
+}
+
+.col-right {
+    width: 38%;
+}   
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
