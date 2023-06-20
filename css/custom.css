@@ -1,35 +1,27 @@
-.border{
+.border {
+  border: 1px solid #000;
 
-  border: 1px solid #000; 
-
-}  
+} 
 
 .hero-img-wrapper {
-
-  margin: 52px 0 0px 65px;
-
-}
-
-.hero-img {
-
- width: 350px;
-
- border-radius: 195px;
-
- border: 20px solid #000;
-
- position:relative;
-
- z-index: 1;
+  margin: 52px 0 0px 65px; 
 
 }
+
+
+.hero-img { 
+
+  width: 350px;
+  border-radius: 195px;
+  border: 20px solid #000;
+  position: relative;
+  z-index: 1;
+} 
 
 
 
 .orange-bg {
-
-  background-color: orange ;
-
+  background-color: orange;
   padding: 13px 65px 13px 0;
 
   width: 80%;
@@ -41,9 +33,7 @@
 .education,
 
 .experience {
-
-  margin:  35px 5px 0 5px;
-
+  margin: 35px 5px 0 5px;
 }
 
 
@@ -60,7 +50,7 @@
 
 .education-date,
 
-.experience-date {      
+.experience-date {
 
   width: 40%;
 
@@ -80,14 +70,13 @@
 
 .education-item,
 
-.experience-item {
+.experience-item { 
 
   margin: 15px;
-
+  
 }
 
-.orange-tittle-bg {
-
+.orange-title-bg {
   position: absolute;
 
   right: 0;
@@ -115,9 +104,7 @@
 }
 
 .empty-box {
-
-  min-height: 430px;
-
+  min-height: 400px;
 }
 
 .col-right {
@@ -135,46 +122,44 @@
 }
 
 .address,
-.phone,
-.web {
-
+.web,
+.phone {
   min-height: 100px;
   margin: 15px 0 0 25px;
   align-items: center;
 
 }
-
-.address.info,
-.phone .info,
-.web.info {
-
-width: 80%;
+.web .info,
+.address .info,
+.phone .info 
+{
+  width: 80%;
 
 }
+.web i, 
 .address i,
-.phone i,
-.web i {
+.phone i {
   width: 20%;
   font-size: 28px;
   color: var(--orange);
-}
+} 
 
 .contact h2,
 .skills h2 {
 
 
 
-  margin-bottom: 20px;
-  margin-top: 20px;
+margin-bottom: 20px;
 
-} 
+
+}
 
 .orange-border {
 
- border: 4px solid var(--orange);
- padding: 15px 35px;
+    border: 4px solid var(--orange);
+    padding: 15px 35px;
 
-}   
+}
 .skills h3 {
   text-align: center;
   text-transform: uppercase;
@@ -191,20 +176,23 @@ width: 80%;
 .photoshop::after,
 .indesign::after,
 .word::after {
-    content: '';  
-    background-color: var(--orange);
-    display: block;
-    height: 100%;
+  content: '';
+  background-color: var(--orange);
+  display: block;
+  height: 100%;
 
 }
+
 .illustrator::after {
   width: 75%;
 
 }
+
 .photoshop::after {
-  width: 90%;
+  width: 90%; 
 
 }
+
 .indesign::after {
   width: 70%;
 
@@ -214,30 +202,165 @@ width: 80%;
   width: 60%;
 
 }
-.break-line{
+.break-line {
   content: '';
   width: 70%;
   height: 5px;
-  margin: 60 px 0 20px 0;
+  margin: 60px 0 20px 0;
   display: block;
   background-color: #fff;
-
 }
-.social::before {
-  content: '';
-  width: 100%;
-  height: 5px;
-  margin: 20px 0;
-  background-color: white;
-}
-
 .icon-square {
   background-color: white;
   width: 60px;
-  height: 60 px;
+  height: 60px;
   margin: 20px;
-  color: black;
+  color: #000;
   font-size: 40px;
   text-align: center;
   line-height: 60px;
+  }
+  .border {
+    border: 1px solid #000;
+} 
+.hero-img-wrapper {
+    margin: 52px 0 0px 65px; 
+}
+.hero-img { 
+    width: 350px;
+    border-radius: 195px;
+    border: 20px solid #000;
+    position: relative;
+    z-index: 1;
+} 
+.orange-bg {
+    background-color: orange;
+    padding: 13px 65px 13px 0;
+    width: 80%;
+    text-align: right;
+}
+.education,
+.experience {
+    margin: 35px 5px 0 5px;
+}
+.square {
+    width: 35px;
+    height: 35px;
+    background-color: var(--orange);
+}
+.education-date,
+.experience-date {
+    width: 40%;
+    margin-left: 15px;
+}
+.education-description,
+.experience-wrapper {
+    width: 50%;
+}
+.education-item,
+.experience-item {
+    margin: 15px;
+}
+.orange-title-bg {
+    position: absolute;
+    right: 0;
+    top: 150px;
+    height: 185px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 170px;
+    width: 73%;
+    background-color: var(--orange);
+}
+.container {
+    position: relative;
+}
+.empty-box {
+    min-height: 400px;
+}
+.col-right {
+    align-items: center;
+}
+.contact,
+.skills {
+    min-height: 500px;
+}
+.address,
+.web,
+.phone {
+    min-height: 100px;
+    margin: 15px 0 0 25px;
+    align-items: center;
+}
+.web .info,
+.address .info,
+.phone .info 
+ {
+    width: 80%;
+}
+.web i, 
+.address i,
+.phone i {
+    width: 20%;
+    font-size: 28px;
+    color: var(--orange);
+} 
+.contact h2,
+.skills h2 {
+    margin-bottom: 20px;
+}
+.orange-border {
+    border: 4px solid var(--orange);
+    padding: 15px 35px;
+}
+.skills h3 {
+    text-align: center;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+.progres {
+    width: 100%;
+    border: 3px solid var(--orange);
+    height: 23px;
+}
+.illustrator::after,
+.photoshop::after,
+.indesign::after,
+.word::after {
+    content: '';
+    background-color: var(--orange);
+    display: block;
+    height: 100%;
+}
+.illustrator::after {
+    width: 75%;
+}
+.photoshop::after {
+    width: 90%; 
+}
+.indesign::after {
+    width: 70%;
+} 
+ 
+.word::after {
+    width: 60%;
+}
+.break-line {
+    content: '';
+    width: 70%;
+    height: 5px;
+    margin: 60px 0 20px 0;
+    display: block;
+    background-color: #fff;
+}
+
+.icon-square {
+    background-color: white;
+    width: 60px;
+    height: 60px;
+    margin: 20px;
+    color: #000;
+    font-size: 40px;
+    text-align: center;
+    line-height: 60px;
 }
